@@ -568,16 +568,16 @@ p {
  
 	.text p{
 		color: #000000;
-		margin: 0px;
+		margin: 30px;
 		font-size: 4rem;
 		position: relative;
-		overflow: hidden;
+		
 		white-space: nowrap;
 		animation: typingEffect 3s steps(70,infinite);
 	}
 
 	.text button{
-		cursor: pointer;
+		
 		margin-top: 16px;
 		padding: 10px 70px;
 		font-size: 2rem;
@@ -587,6 +587,9 @@ p {
 		border-radius: 4px;
 		font-weight: 500;
 
+	}
+	.text button:hover{
+		background-color: aqua;
 	}
 /* End Footer */
 

@@ -23,3 +23,8 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
+var link =document.querySelector(".text")
+link.addEventListener("click",()=>{
+	window.location.href="www.youtube.com"
+
+})
